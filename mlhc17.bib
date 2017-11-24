@@ -1,0 +1,317 @@
+%% This BibTeX bibliography file was created using BibDesk.
+%% http://bibdesk.sourceforge.net/
+
+%% Created for Joanne Bourgeois at 2017-10-12 12:41:38 -0400 
+
+
+%% Saved with string encoding Unicode (UTF-8) 
+
+@Proceedings{MLHC-2017,
+    booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+    editor = {Finale Doshi-Velez and Jim Fackler and David Kale and Rajesh Ranganath and Byron Wallace and Jenna Wiens},
+    volume = {68},
+    shortname = {MLHC},
+    name = {Machine Learning for Healthcare Conference},
+    year = {2017},
+    start = {2017-08-18},
+    end = {2017-08-19},
+    address = {Boston, Massachusetts},
+    url = {http://mucmd.org/},
+    conference_number = {2},
+    published = {2017-11-06},
+    shortname = {MLHC}
+}
+
+@inproceedings{Johnson17,
+	Abstract = {Mortality prediction of intensive care unit (ICU) patients facilitates hospital benchmarking and has the opportunity to provide caregivers with useful summaries of patient health at the bedside. The development of novel models for mortality prediction is a popular task in machine learning, with researchers typically seeking to maximize measures such as the area under the receiver operator characteristic curve (AUROC). The number of 'researcher degrees of freedom' that contribute to the performance of a model, however, presents a challenge when seeking to compare reported performance of such models.
+
+In this study, we review publications that have reported performance of mortality prediction models based on the Medical Information Mart for Intensive Care (MIMIC) database and attempt to reproduce the cohorts used in their studies. We then compare the performance reported in the studies against gradient boosting and logistic regression models using a simple set of features extracted from MIMIC. We demonstrate the large heterogeneity in studies that purport to conduct the single task of 'mortality prediction', highlighting the need for improvements in the way that prediction tasks are reported to enable fairer comparison between models.
+
+We reproduced datasets for 38 experiments corresponding to 28 published studies using MIMIC. In half of the experiments, the sample size we acquired was 25\% greater or smaller than the sample size reported. The highest discrepancy was 11,767 patients. While accurate reproduction of each study cannot be guaranteed, we believe that these results highlight the need for more consistent reporting of model design and methodology to allow performance improvements to be compared. We discuss the challenges in reproducing the cohorts used in the studies, highlighting the importance of clearly reported methods (e.g. data cleansing, variable selection, cohort selection) and the need for open code and publicly available benchmarks.},
+	Author = {Johnson, Alistair E. W. and Pollard, Tom J. and Mark, Roger G.},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 17:16:43 +0000},
+	Date-Modified = {2017-10-12 16:40:43 +0000},
+	Pages = {361-376},
+	Title = {Reproducibility in critical care: a mortality prediction case study},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Wang17,
+	Abstract = {Accurate referral to a medical specialist is a challenging part of medical care, especially for patients with rare diseases. Because of the diversity of rare diseases, finding a specialist that has experience with the particular rare disease is important. This burden often falls on the patients and families, but they do not necessarily have the time or scientific expertise to evaluate the medical literature to identify experts. To help patients, families, and general practitioners find specialists in a particular rare disease, we trained machine learning models to predict the expertise of researchers in every rare disease based on their publication record. We compile a dataset of 209,110 disease-author associations from the literature and evaluate the performance of six machine learning methods, classifying known rare disease experts with 79.4\% accuracy and predicting 41,129 disease-expert associations.},
+	Author = {Wang, Zihan and Brudno, Michael and Buske, Orion},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 17:15:07 +0000},
+	Date-Modified = {2017-10-12 16:38:24 +0000},
+	Pages = {352-360},
+	Title = {Towards a Directory of Rare Disease Specialists: Identifying Experts from Publication History},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Pourzanjani17,
+	Abstract = {Death from trauma is most often the result of uncontrollable bleeding as a result of Acute Traumatic Coagulopathy (ATC), a disease that manifests itself differently in different sub-cohorts of trauma patients. Understanding the mechanisms of ATC and how existing patient tests can inform us about these mechanisms is key to treating the disease. We introduce a hierarchical Canonical Correlation Analysis (CCA) model that captures a lower dimensional representation of the coagulation system based on blood protein and other tests. The hierarchial nature of the model is ideal in the setting where multiple sub-cohorts are present, but statistical strength can reasonably be borrowed from similar groups. We illustrate how the model may be useful in understanding and treating ATC.},
+	Author = {Pourzanjani, Arya A. and Wu, Tie Bo and Jiang, Richard M. and Cohen, Mitchell J. and Petzold, Linda R.},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 17:11:51 +0000},
+	Date-Modified = {2017-10-12 16:41:24 +0000},
+	Pages = {338-351},
+	Title = {Understanding Coagulopathy using Multi-view Data in the Presence of Sub-Cohorts: A Hierarchical Subspace Approach},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Suresh17,
+	Abstract = {Real-time prediction of clinical interventions remains a challenge within intensive care units (ICUs). This task is complicated by data sources that are sparse, noisy, heterogeneous and outcomes that are imbalanced. In this work, we integrate data across many ICU sources --- vitals, labs, notes, demographics --- and focus on learning rich representations of this data to predict onset and weaning of multiple invasive interventions. In particular, we compare both long short-term memory networks (LSTM) and convolutional neural networks (CNN) for prediction of five intervention tasks: invasive ventilation, non-invasive ventilation, vasopressors, colloid boluses, and crystalloid boluses. Our predictions are done in a forward-facing manner after a six hour gap time to support clinically actionable planning. We achieve state-of-the-art results on these predictive tasks using deep architectures. Further, we explore the use of feature occlusion to interpret LSTM models, and compare this to the interpretability gained from examining inputs that maximally activate CNN outputs. We show that our models are able to significantly outperform baselines for intervention prediction, and provide insight into model learning.},
+	Author = {Suresh, Harini and Hunt, Nathan and Johnson, Alistair and Celi, Leo Anthony and Szolovits, Peter and Ghassemi, Marzyeh},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 17:08:54 +0000},
+	Date-Modified = {2017-10-12 16:38:55 +0000},
+	Pages = {322-337},
+	Title = {Clinical Intervention Prediction and Understanding with Deep Neural Networks},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Amir17,
+	Abstract = {Mental illnesses adversely affect a significant proportion of the population worldwide. However, the typical methods to estimate and characterize the prevalence of mental health conditions are time-consuming and expensive. Consequently, best-available estimates concerning the prevalence of these conditions are often years out of date. Automated approaches that supplement traditional methods with broad, aggregated information derived from social media provide a potential means of furnishing near real-time estimates at scale. These may in turn provide grist for supporting, evaluating and iteratively improving public health programs and interventions.
+We propose a novel approach for mental health quantification that leverages user em-beddings induced from social media post histories. Recent work showed that learned user representations capture latent aspects of individuals (e.g., political leanings). This paper investigates whether these representations also correlate with mental health statuses. To this end, we induced embeddings for a set of users known to be affected by depression and post-traumatic stress disorder, and for a set of demographically matched `control' users. We then evaluated the induced user representations with respect to: (i) their ability to capture homophilic relations with respect to mental health statuses; and (ii) their predictive performance in downstream mental health models. Our experimental results demonstrate that learned user embeddings capture relevant signals for mental health quantification.},
+	Author = {Amir, Silvio and Coppersmith, Glen and Carvalho, Paula and Silva, Mario J. and Wallace, Bryon C.},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 16:59:30 +0000},
+	Date-Modified = {2017-10-12 16:37:32 +0000},
+	Pages = {306-321},
+	Title = {Quantifying Mental Health from Social Media with Neural User Embeddings},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Choi17,
+	Abstract = {Access to electronic health record (EHR) data has motivated computational advances in medical research. However, various concerns, particularly over privacy, can limit access to and collaborative use of EHR data. Sharing synthetic EHR data could mitigate risk.
+In this paper, we propose a new approach, medical Generative Adversarial Network (medGAN), to generate realistic synthetic patient records. Based on input real patient records, medGAN can generate high-dimensional discrete variables (e.g., binary and count features) via a combination of an autoencoder and generative adversarial networks. We also propose minibatch averaging to efficiently avoid mode collapse, and increase the learning efficiency with batch normalization and shortcut connections. To demonstrate feasibility, we showed that medGAN generates synthetic patient records that achieve comparable performance to real data on many experiments including distribution statistics, predictive modeling tasks and a medical expert review. We also empirically observe a limited privacy risk in both identity and attribute disclosure using medGAN.},
+	Author = {Choi, Edward and Biswal, Siddharth and Malin, Bradley and Duke, Jon and Stewart, Walter F. and Sun, Jimeng},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 16:56:04 +0000},
+	Date-Modified = {2017-10-12 16:39:31 +0000},
+	Pages = {286-305},
+	Title = {Generating Multi-label Discrete Patient Records using Generative Adversarial Networks},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Ling17,
+	Abstract = {Clinical diagnostic inferencing is a complex task, which often requires significant medical research and investigation based on an underlying clinical scenario. This paper proposes a novel approach by formulating the task as a reinforcement learning problem such that the system can infer the most probable diagnoses by optimizing clinical concept extraction from a free text case narrative via leveraging relevant external evidence. Such a formulation is deemed to be suitable due to the inherent complexity of the task and unavailability of sufficient annotated data. During training, the agent tries to learn the optimal policy through iterative search and consolidation of the most relevant clinical concepts that best describe a correct diagnosis. A deep Q-network architecture is trained to optimize a reward function that measures the accuracy of the candidate diagnoses and clinical concepts. Our preliminary experiments on the TREC CDS dataset demonstrate the effectiveness of our system over non-reinforcement learning-based strong baselines.},
+	Author = {Ling, Yuan and Hasan, Sadid A. and Datla, Vivek and Qadir, Ashequl and Lee, Kathy and Liu, Joey and Farri, Oladimeji},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 16:53:04 +0000},
+	Date-Modified = {2017-10-12 16:39:19 +0000},
+	Pages = {271-285},
+	Title = {Diagnostic Inferencing via Improving Clinical Concept Extraction with Deep Reinforcement Learning: A Preliminary Study},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Islam17,
+	Abstract = {Electronic Health Records (EHRs) consist of sparse, noisy, incomplete, heterogeneous and unevenly sampled clinical data of patients. They include physiological signals, lab test results, procedural events, clinical notes. Such data can be treated as a temporal stream of events of varied types occurring at irregularly spaced time points. We focus on modeling the temporal dependencies that arise due to the types, timings, and values of different events in such data. We model the event streams, including vital signs, laboratory results contained in two different datasets (MIMIC III --- Medical Information Mart for Intensive Care clinical database --- and data extracted from EHRs of patients in a tertiary pediatric intensive care unit) using a piecewise-constant conditional intensity model (PCIM), a type of marked point process. Our experiments capture meaningful temporal dependencies and show improvement in hospital mortality prediction over traditional ICU scoring systems.},
+	Author = {Islam, Kazi T. and Shelton, Christian R. and Casse, Juan I. and Wetzel, Randall},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 16:51:08 +0000},
+	Date-Modified = {2017-10-12 16:39:47 +0000},
+	Pages = {255-270},
+	Title = {Marked Point Process for Severity of Illness Assessment},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Futoma17,
+	Abstract = {Sepsis is a poorly understood and potentially life-threatening complication that can occur as a result of infection. Early detection and treatmenz improves patient outcomes, and as such it poses an important challenge in medicine. In this work, we develop a flexible classifier that leverages streaming lab results, vitals, and medications to predict sepsis before it occurs. We model patient clinical time series with multi-output Gaussian processes, maintaining uncertainty about the physiological state of a patient while also imputing missing values. The mean function takes into account the effects of medications administered on the trajectories of the physiological variables. Latent function values from the Gaussian process are then fed into a deep recurrent neural network to classify patient encounters as septic or not, and the overall model is trained end-to-end using back-propagation. We train and validate our model on a large dataset of 18 months of heterogeneous inpatient stays from the Duke University Health System, and develop a new ``real-time'' validation scheme for simulat-ing the performance of our model as it will actually be used. Our proposed method substantially outperforms clinical baselines, and improves on a previous related model for detecting sepsis. Our model's predictions will be displayed in a real-time analytics dashboard to be used by a sepsis rapid response team to help detect and improve treatment of sepsis.},
+	Author = {Futoma, Joseph and Hariharan, Sanjay and Heller, Katherine and Sendak, Mark and Brajer, Nathan and Clement, Meredith and Bedoya, Armando and O'Brien, Cara},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 16:44:31 +0000},
+	Date-Modified = {2017-10-12 16:38:40 +0000},
+	Pages = {243-254},
+	Title = {An Improved Multi-Output Gaussian Process RNN with Real-Time Validation for Early Sepsis Detection},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Lorenzi17,
+	Abstract = {We develop a novel algorithm, Predictive Hierarchical Clustering (PHC), for agglomerative hierarchical clustering of current procedural terminology (CPT) codes. Our predictive hierarchical clustering aims to cluster subgroups, not individual observations, found within our data, such that the clusters discovered result in optimal performance of a classification model. Therefore, merges are chosen based on a Bayesian hypothesis test, which chooses pairings of the subgroups that result in the best model fit, as measured by held out predictive likelihoods. We place a Dirichlet prior on the probability of merging clusters, allowing us to adjust the size and sparsity of clusters. The motivation is to predict patient-specific surgical outcomes using data from ACS NSQIP (American College of Surgeon's National Surgical Quality Improvement Program). An important predictor of surgical outcomes is the actual surgical procedure performed as described by a CPT code. We use PHC to cluster CPT codes, represented as subgroups, together in a way that enables us to better predict patient-specific outcomes compared to currently used clusters based on clinical judgment.},
+	Author = {Lorenzi, Elizabeth C. and Brown, Stephanie L. and Sun, Zhifei and Heller, Katherine},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-11 16:41:10 +0000},
+	Date-Modified = {2017-10-12 16:40:32 +0000},
+	Pages = {231-242},
+	Title = {Predictive Hierarchical Clustering: Learning clusters of CPT codes for improving surgical outcomes},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Jahja17,
+	Abstract = {The goal of this work is to better convey the evidence for or against clinically significant differences in patient outcomes induced by different treatment policies. In pursuit of this goal, we present a framework for computing and presenting prediction regions and tolerance regions for the outcomes of a treatment policy operating within a multi-objective Markov decision process (MOMDP). Our framework draws on two bodies of existing work, one in computer science for learning in MOMDPs, and one in statistics for uncertainty quantification. We review the relevant methods from each body of work, present our framework, and illustrate its use using data from the Clinical Antipsychotic Trials of Intervention Effectiveness (Schizophrenia). Finally, we discuss potential future directions of this work for supporting sequential decision-making.},
+	Author = {Jahja, Maria and Lizotte, Daniel J.},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 20:02:19 +0000},
+	Date-Modified = {2017-10-12 16:41:31 +0000},
+	Pages = {217-230},
+	Title = {Visualizing Clinical Significance with Prediction and Tolerance Regions},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Jaroensri17,
+	Abstract = {For many movement disorders, such as Parkinson's disease and ataxia, disease progression is visually assessed by a clinician using a numerical disease rating scale. These tests are subjective, time-consuming, and must be administered by a professional. This can be problematic where specialists are not available, or when a patient is not consistently evaluated by the same clinician. We present an automated method for quantifying the severity of motion impairment in patients with ataxia, using only video recordings. We consider videos of the finger-to-nose test, a common movement task used as part of the assessment of ataxia progression during the course of routine clinical checkups.
+Our method uses neural network-based pose estimation and optical flow techniques to track the motion of the patient's hand in a video recording. We extract features that describe qualities of the motion such as speed and variation in performance. Using labels provided by an expert clinician, we train a supervised learning model that predicts severity according to the Brief Ataxia Rating Scale (BARS). The performance of our system is comparable to that of a group of ataxia specialists in terms of mean error and correlation, and our system's predictions were consistently within the range of inter-rater variability. This work demonstrates the feasibility of using computer vision and machine learning to produce consistent and clinically useful measures of motor impairment.},
+	Author = {Jaroensri, Ronnachai and Zhao, Amy and Balakrishnan, Guha and Lo, Derek and Schmahmann, M.D., Jeremy D. and Durand, Fredo and Guttag, John},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 19:58:53 +0000},
+	Date-Modified = {2017-10-12 16:38:33 +0000},
+	Pages = {204-216},
+	Title = {A Video-Based Method for Automatically Rating Ataxia},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Conroy17,
+	Abstract = {We present a multiple kernel learning framework to learn similarity functions that compare physiological state between patients. A powerful ensemble kernel is learned from many base kernels evaluated on individual features. Our proposed framework captures two aspects of patient similarity: that patient similarity should be dependent on clinical context and that similarity should be modulated by the frequency and specificity of individual feature values. We validate our model on ICU data to predict hemodynamic instability and present analyses on using the patient similarity function to construct personalized cohorts. Our experiments show that the statistical properties learned by the kernels functions based on feature population distributions are significantly more predictive than naive stationary kernels (e.g. RBFs). Population-based kernels outperform RBF's in identifying patient cohorts based on abnormality of their vitals and lab measurements and at predicting mortality.},
+	Author = {Conroy, Bryan and Xu-Wilson, Minnan and Rahman, Asif},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 19:56:52 +0000},
+	Date-Modified = {2017-10-12 16:40:03 +0000},
+	Pages = {191-203},
+	Title = {Patient Similarity Using Population Statistics and Multiple Kernel Learning},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Bao17,
+	Abstract = {Adverse drug reaction (ADR) discovery is the task of identifying unexpected and negative events caused by pharmaceutical products. This paper describes a log-linear Hawkes process model for ADR discovery from longitudinal observational data such as electronic health records (EHRs). The proposed method leverages the irregular time-stamped events in EHRs to represent the time-varying effect of various drugs on the occurrence rate of adverse events. Experimental results on a large-scale cohort of real-world EHRs demonstrate that the proposed method outperforms a leading approach, multiple self-controlled case series (Simpson et al., 2013), in identifying benchmark ADRs defined by the Observational Medical Outcomes Partnership.},
+	Author = {Bao, Yujia and Kuang, Zhaobin and Peissig, Peggy and Page, David and Willett, Rebecca},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 19:54:27 +0000},
+	Date-Modified = {2017-10-12 16:39:40 +0000},
+	Pages = {177-190},
+	Title = {Hawkes Process Modeling of Adverse Drug Reactions with Longitudinal Observational Data},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Yang17,
+	Abstract = {In this work we attempt to predict the progression-free survival time of metastatic breast cancer patients by combining state-of-the-art deep learning approaches with traditional survival analysis models. In order to tackle the challenge of sequential clinical records being both high-dimensional and sparse, we propose to apply a tensorized recurrent neural network architecture to extract a latent representation from the entire patient history. We use this as the input to an Accelerated Failure Time model that predicts the survival time. Our experiments, conducted on a large real-world clinical dataset, demonstrate that the tensorized recurrent neural network largely reduces the number of weight parameters and the training time. It also achieves modest improvements in prediction, in comparison with state-of-the-art recurrent neural network models enhanced with event embeddings.},
+	Author = {Yang, Yinchong and Fasching, Peter A. and Tresp, Volker},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 19:52:27 +0000},
+	Date-Modified = {2017-10-12 16:39:54 +0000},
+	Pages = {164-176},
+	Title = {Modeling Progression Free Survival in Breast Cancer with Tensorized Recurrent Neural Networks and Accelerated Failure Time Models},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Raghu17,
+	Abstract = {Sepsis is a leading cause of mortality in intensive care units (ICUs) and costs hospitals billions annually. Treating a septic patient is highly challenging, because individual patients respond very differently to medical interventions and there is no universally agreed-upon treatment for sepsis. Understanding more about a patient's physiological state at a given time could hold the key to effective treatment policies. In this work, we propose a new approach to deduce optimal treatment policies for septic patients by using continuous state-space models and deep reinforcement learning. Learning treatment policies over continuous state-spaces is important, because doing so allows us to retain more of the patient's physiological information. Our model is able to learn clinically interpretable treatment policies, similar in important aspects to the treatment policies of physicians. Evaluating our algorithm on past ICU patient data, we find that our model could reduce absolute patient mortality in the hospital by up to 3.6\% over observed clinical policies. The learned treatment policies could be used to aid intensive care clinicians in medical decision making and improve the likelihood of patient survival.},
+	Author = {Raghu, Aniruddh and Komorowski, Matthieu and Celi, Leo Anthony and Szolovits, Peter and Ghassemi, Marzyeh},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 19:49:08 +0000},
+	Date-Modified = {2017-10-12 16:39:11 +0000},
+	Pages = {147-163},
+	Title = {Continuous State-Space Models for Optimal Sepsis Treatment: a Deep Reinforcement Learning Approach},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Ruffini17,
+	Abstract = {In this paper we present a method for the unsupervised clustering of high-dimensional binary data, with a special focus on electronic healthcare records. We present a robust and efficient heuristic to face this problem using tensor decomposition. We present the reasons why this approach is preferable for tasks such as clustering patient records, to more commonly used distance-based methods. We run the algorithm on two datasets of healthcare records, obtaining clinically meaningful results.},
+	Author = {Ruffini, Matteo and Gavalda, Ricard and Limon, Esther},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 19:46:18 +0000},
+	Date-Modified = {2017-10-12 16:39:03 +0000},
+	Pages = {126-146},
+	Title = {Clustering Patients with Tensor Decomposition},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Fiorini17,
+	Abstract = {Multiple Sclerosis is a degenerative condition of the central nervous system that affects nearly 2.5 million of individuals in terms of their physical, cognitive, psychological and social capabilities. Despite the high variability of its clinical presentation, relapsing and progressive multiple sclerosis are considered the two main disease types, with the former possibly evolving into the latter. Recently, the attention of the medical community toward the use of patient-centered outcomes in multiple sclerosis has significantly increased. Such patient-friendly measures are devoted to the assessment of the impact of the disease on several domains of the patient life. In this work, we investigate on use of patient-centered outcomes to predict the evolution of the disease and to assess its impact on patients' lives. To this aim, we build a novel temporal model based on gradient boosting classification and multiple-output elastic-net regression. The model provides clinically interpretable results along with accurate predictions of the disease course evolution.},
+	Author = {Fiorini, Samuele and Verri, Alessandro and Barla, Annalisa and Tacchino, Andrea and Brichetto, Giampaolo},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 19:42:30 +0000},
+	Date-Modified = {2017-10-12 16:33:41 +0000},
+	Pages = {112-125},
+	Title = {Temporal prediction of multiple sclerosis evolution from patient-centered outcomes},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Ng17,
+	Abstract = {Scheduling surgeries is a challenging task due to the fundamental uncertainty of the clinical environment, as well as the risks and costs associated with under- and over-booking. We investigate neural regression algorithms to estimate the parameters of surgery case durations, focusing on the issue of heteroscedasticity. We seek to simultaneously estimate the duration of each surgery, as well as a surgery-specific notion of our uncertainty about its duration. Estimating this uncertainty can lead to more nuanced and effective scheduling strategies, as we are able to schedule surgeries more efficiently while allowing an informed and case-specific margin of error. Using surgery records from a large United States health system we demonstrate potential improvements on the order of 20\% (in terms of minutes overbooked) compared to current scheduling techniques. Moreover, we demonstrate that surgery durations are indeed heteroscedastic. We show that models that estimate case-specific uncertainty better fit the data (log likelihood). Additionally, we show that the heteroscedastic predictions can more optimally trade off between over and under-booking minutes, especially when idle minutes and scheduling collisions confer disparate costs.},
+	Author = {Ng, Nathan H and Gabriel, Rodney A and McAuley, Julian and Elkan, Charles and Lipton, Zachary C},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 18:50:01 +0000},
+	Date-Modified = {2017-10-12 16:40:24 +0000},
+	Number = {26},
+	Pages = {100-111},
+	Title = {Predicting Surgery Duration with Neural Heteroscedastic Regression},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Law17,
+	Abstract = {In this paper, we propose a computer vision based method to assess the technical skill level of surgeons by analyzing the movement of robotic instruments in robotic surgical videos. First, our method leverages the power of crowd workers on the internet to obtain high quality data in a scalable and cost-efficient way. Second, we utilize the high quality data to train an accurate and efficient robotic instrument tracker based on the state-of-the-art Hourglass Networks. Third, we assess the movement of the robotic instruments and automatically classify the technical level of a surgeon with a linear classifier, using peer evaluations of skill as the reference standard. Since the proposed method relies only on video data, this method has the potential to be transferred to other minimally invasive surgical procedures.},
+	Author = {Law, Hei and Ghani, Khurshid and Deng, Jia},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 18:47:49 +0000},
+	Date-Modified = {2017-10-12 16:41:07 +0000},
+	Pages = {88-99},
+	Title = {Surgeon Technical Skill Assessment using Computer Vision based Analysis},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Haque17,
+	Abstract = {One in twenty-five patients admitted to a hospital will suffer from a hospital acquired infection. If we can intelligently track healthcare staff, patients, and visitors, we can better understand the sources of such infections. We envision a smart hospital capable of increasing operational efficiency and improving patient care with less spending. In this paper, we propose a non-intrusive vision-based system for tracking people's activity in hospitals. We evaluate our method for the problem of measuring hand hygiene compliance. Empirically, our method outperforms existing solutions such as proximity-based techniques and covert in-person observational studies. We present intuitive, qualitative results that analyze human movement patterns and conduct spatial analytics which convey our method's interpretability. This work is a first step towards a computer-vision based smart hospital and demonstrates promising results for reducing hospital acquired infections.},
+	Author = {Haque, Albert and Guo, Michelle and Alahi, Alexandre and Yeung, Serena and Luo, Zelun and Rege, Alisha and Jopling, Jeffrey and Downing, Lance and Beninati, William and Singh, Amit and Platchek, Terry and Milstein, Arnold and Fei-Fei, Li},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 18:41:37 +0000},
+	Date-Modified = {2017-10-12 16:33:54 +0000},
+	Pages = {75-87},
+	Title = {Towards Vision-Based Smart Hospitals: A System for Tracking and Monitoring Hand Hygiene Compliance},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Fiterau17,
+	Abstract = {In healthcare applications, temporal variables that encode movement, health status, and longitudinal patient evolution are often accompanied by rich structured information such as demographics, diagnostics and medical exam data. However, current methods do not jointly optimize over structured covariates and time series in the feature extraction process. We present ShortFuse, a method that boosts the accuracy of deep learning models for time series by explicitly modeling temporal interactions and dependencies with structured covariates. ShortFuse introduces hybrid convolutional and LSTM cells that incorporate the covariates via weights that are shared across the temporal domain. ShortFuse outperforms competing models by 3\% on two biomedical applications, forecasting osteoarthritis-related cartilage degeneration and predicting surgical outcomes for cerebral palsy patients.},
+	Author = {Fiterau, Madalina and Bhooshan, Suvrat and Fries, Jason and Bournhonesque, Charles and Hicks, Jennifer and Halilaj, Eni and Re, Christopher and Delp, Scott},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 18:37:14 +0000},
+	Date-Modified = {2017-10-12 16:40:51 +0000},
+	Pages = {59-74},
+	Title = {ShortFuse: Biomedical Time Series Representations in the Presence of Structured Information},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Forte17,
+	Abstract = {Coronary Artery Bypass Graft (CABG) surgery is the most common cardiac operation and its complications are associated with increased long-term mortality rates. Although many factors are known to be linked to this, much remains to be understood about their exact influence on outcome. In this study we used Machine Learning (ML) algorithms to predict long-term mortality in CABG patients using data from routinely measured clinical parameters from a large cohort of CABG patients (n=5868). We compared the accuracy of 5 different ML models with traditional Cox and Logistic Regression, and report the most important variables in the best performing models. In the validation dataset, the Gradient Boosted Machine (GBM) algorithm was the most accurate (AUROC curve [95\%CI] of 0.767 [0.739-0.796]), proving to be superior to traditional Cox and logistic regression (p <0.01) for long-term mortality prediction. Measures of variable importance for outcome prediction extracted from the GBM and Random Forest models partly reflected what is known in the literature, but interestingly also highlighted other unexpectedly relevant parameters. In conclusion, we found ML algorithm-based models to be more accurate than traditional Logistic Regression in predicting long-term mortality after CABG. Finally, these models may provide essential input to assist the development of intelligent decision support systems for clinical use.},
+	Author = {Forte, Jose Castela and Wiering, Marco A. and Bouma, Hjalmar R. and de Geus, Fred and Epema, Anne H.},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 17:49:00 +0000},
+	Date-Modified = {2017-10-12 16:40:16 +0000},
+	Pages = {39-58},
+	Title = {Predicting long-term mortality with first week post-operative data after Coronary Artery Bypass Grafting using Machine Learning models},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Bergquist17,
+	Abstract = {Research in oncology quality of care and health outcomes has been limited by the difficulty of identifying cancer stage in health care claims data. Using linked cancer registry and Medicare claims data, we develop a tool for classifying lung cancer patients receiving chemotherapy into early vs. late stage cancer by (i) deploying ensemble machine learning for prediction, (ii) establishing a set of classification rules for the predicted probabilities, and (iii) considering an augmented set of administrative claims data. We find our ensemble machine learning algorithm with a classification rule defined by the median substantially outperforms an existing clinical decision tree for this problem, yielding full sample performance of 93\% sensitivity, 92\% specificity, and 93\% accuracy. This work has the potential for broad applicability as provider organizations, payers, and policy makers seek to measure quality and outcomes of cancer care and improve on risk adjustment methods.},
+	Author = {Bergquist, Savannah L. and Brooks, Gabriel A. and Keating, Nancy L. and Landrum, Mary Beth and Rose, Sherri},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 17:46:00 +0000},
+	Date-Modified = {2017-10-12 16:38:48 +0000},
+	Pages = {25-38},
+	Title = {Classifying Lung Cancer Severity with Ensemble Machine Learning in Health Care Claims Data},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Farnoosh17,
+	Abstract = {Wearable technologies can benefit from compressive sensing (CS) as an efficient signal transformation, compression, and reconstruction technique. Among such technologies, in-shoe pressure monitoring systems are designed to continuously record plantar pressure distribution for various applications ranging from medical research to product development in sports and healthcare. To gather adequate information from plantar area, a high resolution spatial pressure reading is required. However, to achieve a practical wearable monitoring system with long battery life at a reasonable price, the number of sensors in the shoe must be very limited. In this paper, we employed CS principles to reconstruct spatially-continuous plantar pressure distribution from a small number of sensors (i.e. K < 10) based on a supervised dictionary learning approach. The learned dictionary transforms the high-resolution pressure distribution to a sparse representation which is accurately reconstructable using either orthogonal matching pursuit (OMP) or least absolute shrinkage and selection operator (LASSO) algorithm. Using plantar pressure data from 5 participants, we demonstrated that our method outperforms grid-based and non-gridded interpolation techniques even at K = 4 sensors such that the best interpolation needs more than K = 170 sensors to give the same reconstruction accuracy. With K = 4 sensors, we achieved a root mean squares (RMS) reconstruction error of 6.7 kPa per sensing cell while the error remained below 16 kPa for pressure values up to 160 kPa. Our algorithm is also shown to be robust in presence of measurement error and limited training data, therefore efficiently addresses the challenges encountered in production of commercial in-shoe monitoring systems.},
+	Author = {Farnoosh, Amirreza and Ostadabbas, Sarah and Nourani, Mehrdad},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 17:35:30 +0000},
+	Date-Modified = {2017-10-12 16:40:59 +0000},
+	Pages = {13-24},
+	Title = {Spatially-Continuous Plantar Pressure Reconstruction Using Compressive Sensing},
+	Volume = {68},
+	Year = {2017}}
+
+@inproceedings{Weiss17,
+	Abstract = {Logged events occur both regularly and irregularly over time. In electronic health records, these events represent mixtures of scheduled and urgent or emergent encounters. Whereas most survival models use baseline events to estimate the rate function for an outcome, e.g., Cox processes using the proportional-hazards assumption, our framework uses logged events over time to predict survival outcomes with piecewise approximations of arbitrary hazard functions. We develop a procedure to learn forests as combinations of piecewise-constant and parameterized distributions to compactly model survival distributions from data. Under this construction, the model provides a ``now-time'' risk that incorporates irregularly-repeated data and for health outcomes serves as a surrogate for patient disposition. We illustrate the advantages of our method in simulations and in longitudinal, intensive care unit data of individuals with diabetes admitted for ketoacidosis.},
+	Author = {Weiss, Jeremy C.},
+	Booktitle = {Proceedings of the 2nd Machine Learning for Healthcare Conference},
+	Date-Added = {2017-10-10 14:43:17 +0000},
+	Date-Modified = {2017-10-12 16:40:09 +0000},
+	Pages = {1-12},
+	Title = {Piecewise-constant parametric approximations for survival learning},
+	Volume = {68},
+	Year = {2017}}

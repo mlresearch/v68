@@ -1,0 +1,74 @@
+---
+booktitle: Proceedings of the 2nd Machine Learning for Healthcare Conference
+volume: 68
+shortname: MLHC
+year: '2017'
+start: 2017-08-18
+end: 2017-08-19
+url: http://proceedings.mlr.press
+conference_number: '2'
+published: 2017-11-06
+layout: proceedings
+series: Proceedings of Machine Learning Research
+id: MLHC-2017
+month: 0
+cycles: false
+editor:
+- given: Finale
+  family: Doshi-Velez
+- given: Jim
+  family: Fackler
+- given: David
+  family: Kale
+- given: Rajesh
+  family: Ranganath
+- given: Byron
+  family: Wallace
+- given: Jenna
+  family: Wiens
+title: Proceedings of Machine Learning Research
+description: |
+  Proceedings of the 2nd Machine Learning for Healthcare Conference
+    Held in Boston, Massachusetts on 18-19 August 2017
+
+  Published as Volume 68 by the Proceedings of Machine Learning Research on 06 November 2017.
+
+  Volume Edited by:
+    Finale Doshi-Velez
+    Jim Fackler
+    David Kale
+    Rajesh Ranganath
+    Byron Wallace
+    Jenna Wiens
+
+  Series Editors:
+    Neil D. Lawrence
+    Mark Reid
+date_str: 18--19 Aug
+baseurl: "/v68"
+twitter_username: MLResearchPress
+github_username: mlresearch
+markdown: kramdown
+permalink: "/:title.html"
+github:
+  edit: true
+  repository: v68
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    apa: true
+  comments: false
+email: ''
+conference:
+  name: Machine Learning for Healthcare Conference
+  url: 
+  location: Boston, Massachusetts
+  dates:
+  - 2017-08-18
+  - 2017-08-19
+analytics:
+  google:
+    tracking_id: UA-92432422-1
+# Site settings
+# Auto generated from /Users/neil/mlresearch/v68/mlhc17.bib
