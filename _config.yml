@@ -6,6 +6,8 @@ year: '2017'
 start: 2017-08-18
 end: 2017-08-19
 url: http://proceedings.mlr.press
+author:
+  name: PMLR
 conference_number: '2'
 published: 2017-11-06
 layout: proceedings
