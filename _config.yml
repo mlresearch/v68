@@ -6,7 +6,7 @@ shortname: MLHC
 year: '2017'
 start: 2017-08-18
 end: 2017-08-19
-url: http://proceedings.mlr.press
+url: https://proceedings.mlr.press
 author:
   name: PMLR
 conference_number: '2'
